@@ -1,6 +1,7 @@
-import { db } from "@/lib/db";
-import { verifyWebhook } from "@clerk/nextjs/webhooks";
-import { NextRequest } from "next/server";
+import { NextRequest } from 'next/server';
+
+import { db } from '@/lib/db';
+import { verifyWebhook } from '@clerk/nextjs/webhooks';
 
 export async function POST(req: NextRequest) {
   try {

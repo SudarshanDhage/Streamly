@@ -1,10 +1,11 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { SearchIcon, X } from "lucide-react";
-import { useRouter } from "next/navigation";
-import queryString from "query-string";
-import { useState } from "react";
+import { SearchIcon, X } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import queryString from 'query-string';
+import { useState } from 'react';
+
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 
 export const Search = () => {
   const router = useRouter();

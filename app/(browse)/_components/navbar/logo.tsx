@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { Poppins } from "next/font/google";
+import { Poppins } from 'next/font/google';
+import Image from 'next/image';
+import Link from 'next/link';
 
-import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { cn } from '@/lib/utils';
 
 const font = Poppins({
   subsets: ["latin"],

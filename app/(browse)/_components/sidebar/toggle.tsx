@@ -1,11 +1,11 @@
 "use client";
 
-import React from "react";
-import { ArrowLeftFromLine, ArrowRightFromLine } from "lucide-react";
+import { ArrowLeftFromLine, ArrowRightFromLine } from 'lucide-react';
+import React from 'react';
 
-import { useSidebar } from "@/store/use-sidebar";
-import { Button } from "@/components/ui/button";
-import { Hint } from "@/components/hint";
+import { Hint } from '@/components/hint';
+import { Button } from '@/components/ui/button';
+import { useSidebar } from '@/store/use-sidebar';
 
 export function Toggle() {
   const { collapsed, onExpand, onCollapse } = useSidebar((state) => state);
